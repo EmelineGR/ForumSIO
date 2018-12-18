@@ -1,0 +1,155 @@
+body
+{
+	background-image : url(Image/fond.jpg) ;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position: center;
+}
+
+a 
+{ 
+	color: white;
+	text-decoration: none;
+}
+a:hover /*lien survolé*/
+{
+	background-color: rgb(153, 187, 255, 0.7);
+	color: white;
+}
+a:active /* Quand le visiteur clique sur le lien */ 
+{
+	background-color: rgb(153, 187, 255, 0.7);
+}
+a:visited /*lien visité*/
+{
+	color : #b3d9ff;
+}
+
+.Fin
+{
+	text-align: center;
+	margin : auto;
+	padding : 2%;
+	color : white;
+}
+
+.index
+{
+	width : 50%;
+	margin : auto;
+	text-align : center;
+	padding : 2%;
+}
+
+.form/*Formulaire*/
+{
+	width : 399px;
+	margin : auto;
+	color : white;
+}
+
+fieldset
+{
+	background-color : rgb(0, 51, 128, 0.7);
+}
+
+.Titre /*Forum SIO*/
+{
+	width : 30%;
+	height: 10%;
+	font-size:50px;
+	margin : auto;
+	margin-bottom: 3%;
+	text-align: center;
+	padding : 1%;
+	color : white;
+	background-color: rgb(0, 128, 128, 0.7);
+	border-radius : 0 0 30px 30px;
+}
+
+.categorie-liste/*Accueil*/
+{
+	border-radius : 20px;
+	border: 1px solid #003333;
+	width : 20%;
+	margin : auto;
+	background-color: rgb(46, 92, 184, 0.5);
+	padding: 1%;
+}
+
+.LienSC
+{
+	text-align: center;
+	margin: auto;
+	padding: 1%;	
+}
+
+.SC/*sous-catégorie*/
+{
+	border-radius : 20px;
+	border: 1px solid #003333;
+	width : 20%;
+	margin : auto;
+	background-color: rgb(46, 92, 184, 0.5);
+	padding: 1%;
+}
+
+.TitrePage
+{
+	text-decoration: underline;
+	font-size:35px;
+	text-align: center;
+	color: #99ffff;
+	padding:2%;
+}
+
+.LienFo
+{
+	text-align: center;
+	border: 2px solid #66b3ff;
+	border-radius:10px;
+	margin: auto;	
+}
+
+.Boutton
+{
+	font-size: 20px;
+	
+}
+
+.Sujet/*affichage d'un sujet et ses réponses*/
+{
+	border-radius : 20px;
+	border: 1px solid #003333;
+	width : 50%;
+	margin : auto;
+	background-color: rgb(46, 92, 184, 0.5);
+	padding: 2%;
+}
+.Date
+{
+	width: 20%;
+	background-color: #ffffff;
+	margin:auto;
+	text-align: center;
+	padding: 1%;
+	border-radius:20px;
+}
+.Mess
+{
+	background-color: #ffffff;
+	text-align:justify;
+	margin:auto;
+	padding-left: 5px;
+	border-radius:3px;
+}
+
+.Pseudo
+{
+	width: 20%;
+	background-color: #ffffff;
+	margin:auto;
+	text-align: center;
+	padding: 1%;
+	border-radius:80px;
+}
